@@ -1,12 +1,12 @@
 const React = require('react-native');
-const common_style = require('../style.common');
+const common_style = require('../../style.common');
 
 module.exports = React.StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 10,
     paddingBottom: 48,
-    paddingTop: 20
+    paddingTop: 64
   },
   loadingView: {
     flex: 1,
